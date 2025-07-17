@@ -46,9 +46,12 @@ SPOTIPY_CLIENT_ID = 'your-client-id'
 SPOTIPY_CLIENT_SECRET = 'your-client-secret'
 SPOTIPY_REDIRECT_URI = 'http://localhost:8888/callback'
 Run the application:
+ 
 
+You can run the app with a **single command**:
 
-python app.py
+.\run_app.ps1
+
 Visit the app in your browser:
 
 http://127.0.0.1:5000/
