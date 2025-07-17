@@ -23,7 +23,7 @@ Libraries & APIs: DeepFace, OpenCV, Spotipy (Spotify API), Pandas
 Clone the repository:
 
 git clone https://github.com/Gowthamkumar29/Emotion_based_music_recommendation.git
-cd Emotion_based_music_recommendation
+ cd Emotion_based_music_recommendation
 Create a virtual environment (optional but recommended):
 
 
