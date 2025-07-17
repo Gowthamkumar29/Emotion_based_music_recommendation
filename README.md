@@ -4,13 +4,13 @@ This project detects human emotions from facial expressions using DeepFace and r
 🚀 Features
 Emotion detection from webcam using DeepFace
 
-Real-time facial emotion recognition (happy, sad, angry, etc.)
+-Real-time facial emotion recognition (happy, sad, angry, etc.)
 
-Emotion-based song recommendation
+-Emotion-based song recommendation
 
-Spotify integration for music playback
+-Spotify integration for music playback
 
-Flask-based web application with simple UI
+-Flask-based web application with simple UI
 
 🛠️ Tech Stack
 Frontend: HTML, CSS, JavaScript
@@ -56,19 +56,19 @@ http://127.0.0.1:5000/
 Detected Emotions
 The system can classify the following emotions:
 
-Happy😊
+: Happy😊
 
-Sad😭
+: Sad😭
 
-Angry😡
+: Angry😡
 
-Surprise🤯
+: Surprise🤯
 
-Neutral😑
+: Neutral😑
 
-Fear😱
+: Fear😱
 
-Disgust
+: Disgust
 
 📚 References
 DeepFace Documentation
