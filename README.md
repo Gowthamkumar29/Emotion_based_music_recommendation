@@ -53,23 +53,6 @@ Visit the app in your browser:
 
 http://127.0.0.1:5000/
 
-📂 Project Structure
-arduino
-Copy
-Edit
-Emotion_based_music_recommendation/
-├── app.py
-├── config.py
-├── static/
-│   └── style.css
-├── templates/
-│   ├── index.html
-│   └── result.html
-├── haarcascade_frontalface_default.xml
-├── fer.csv (Emotion-tagged songs)
-├── requirements.txt
-
-
 Detected Emotions
 The system can classify the following emotions:
 
