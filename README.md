@@ -12,6 +12,15 @@ Emotion detection from webcam using DeepFace
 
 -Flask-based web application with simple UI
 
+## 📸 Demo Screenshots
+
+### Emotion Detection in Action  
+![Emotion Detection](screenshots/emotion-detection.png)
+
+### Spotify Preview of Recommended Song  
+![Spotify Preview](screenshots/spotify-preview.png)
+
+
 🛠️ Tech Stack
 Frontend: HTML, CSS, JavaScript
 
