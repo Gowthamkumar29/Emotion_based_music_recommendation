@@ -1,86 +1,86 @@
-🎧 Emotion-Based Music Recommendation System
-This project detects human emotions from facial expressions using DeepFace and recommends music that matches the user's mood, playing the song directly through your Spotify account. It combines computer vision with music intelligence to deliver a personalized audio experience.
+# 🎧 Emotion-Based Music Recommendation System
 
-🚀 Features
-Emotion detection from webcam using DeepFace
+This project detects human emotions from facial expressions using **DeepFace** and recommends music that matches the user's mood, playing the song directly through your **Spotify** account. It combines computer vision with music intelligence to deliver a personalized audio experience.
 
--Real-time facial emotion recognition (happy, sad, angry, etc.)
+---
 
--Emotion-based song recommendation
+## 🚀 Features
 
--Spotify integration for music playback
+- 🎭 Real-time facial emotion detection using webcam
+- 🤖 Emotion classification (happy, sad, angry, etc.)
+- 🎵 Mood-based music recommendation
+- 🔗 Spotify integration for instant music playback
+- 🌐 Flask-based web application with user-friendly interface
 
--Flask-based web application with simple UI
+---
 
 ## 📸 Demo Screenshots
 
-### Emotion Detection in Action  
+### 🎯 Emotion Detection in Action  
 ![Emotion Detection](screenshots/emotion-detection.png)
 
-### Spotify Preview of Recommended Song  
+### 🎧 Spotify Preview of Recommended Song  
 ![Spotify Preview](screenshots/spotify-preview.png)
 
+---
 
-🛠️ Tech Stack
-Frontend: HTML, CSS, JavaScript
+## 🛠️ Tech Stack
 
-Backend: Python, Flask
+- **Frontend**: HTML, CSS, JavaScript  
+- **Backend**: Python, Flask  
+- **Libraries & APIs**:
+  - [DeepFace](https://github.com/serengil/deepface)
+  - [OpenCV](https://opencv.org/)
+  - [Spotipy (Spotify API)](https://spotipy.readthedocs.io/)
+  - Pandas
 
-Libraries & APIs: DeepFace, OpenCV, Spotipy (Spotify API), Pandas
+---
 
-📦 Setup Instructions
-Clone the repository:
+## 📦 Setup Instructions
 
+### 1. Clone the Repository
+```bash
 git clone https://github.com/Gowthamkumar29/Emotion_based_music_recommendation.git
- cd Emotion_based_music_recommendation
-Create a virtual environment (optional but recommended):
+cd Emotion_based_music_recommendation
 
-
+2. Create a Virtual Environment
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-Install the required packages:
+# On Windows:
+venv\Scripts\activate
+# On macOS/Linux:
+source venv/bin/activate
 
-
+3. Install Dependencies
 pip install -r requirements.txt
-Set up Spotify Developer credentials:
 
-Go to Spotify Developer Dashboard
+4. Setup Spotify API Credentials
+Visit the Spotify Developer Dashboard
 
-Create an app and get the Client ID and Client Secret
+Create an app to get your Client ID and Client Secret
 
-Create a config.py file and add the following:
-
-
+Create a new file named config.py in the root directory and add:
 SPOTIPY_CLIENT_ID = 'your-client-id'
 SPOTIPY_CLIENT_SECRET = 'your-client-secret'
 SPOTIPY_REDIRECT_URI = 'http://localhost:8888/callback'
-Run the application:
- 
 
-You can run the app with a **single command**:
-
+5. Run the App
 .\run_app.ps1
+Visit in browser: http://127.0.0.1:5000/
 
-Visit the app in your browser:
+🧠 Detected Emotions
+-😊 Happy
 
-http://127.0.0.1:5000/
+-😭 Sad
 
-Detected Emotions
-The system can classify the following emotions:
+-😡 Angry
 
-: Happy😊
+-🤯 Surprise
 
-: Sad😭
+-😑 Neutral
 
-: Angry😡
+-😱 Fear
 
-: Surprise🤯
-
-: Neutral😑
-
-: Fear😱
-
-: Disgust
+-🤢 Disgust
 
 📚 References
 DeepFace Documentation
@@ -90,7 +90,6 @@ Spotify Web API
 OpenCV Face Detection
 
 🙌 Acknowledgements
-Inspired by the intersection of AI and music.
-
-Developed as a personal project for showcasing machine learning + full-stack skills.
+This project was inspired by the intersection of AI and music.
+Built to showcase practical applications of Machine Learning and Full-Stack Development.
 
